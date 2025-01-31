@@ -1,0 +1,50 @@
+.propostas {
+  padding: 1rem;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+.propostas h2 {
+  text-align: left;
+  padding: 5px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card {
+  padding: 4rem;
+  background-color: #520a0a;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-sizing: border-b;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+}
+
+.outras {
+  padding: 5px;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.outras li {
+  list-style-type: none;
+  padding: 5px;
+}

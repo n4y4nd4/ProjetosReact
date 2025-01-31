@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #06080a;
+  color: rgb(9, 9, 9);
+}
+
+h2 {
+  color: rgb(148, 6, 6);
+  margin-left: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #06080a;
+    color: rgb(200, 200, 200);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.app-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+main {
+  grid-area: main;
+}
+
+header {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+}

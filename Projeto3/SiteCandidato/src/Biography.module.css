@@ -1,0 +1,28 @@
+.biography {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.biography h1 {
+  color: rgb(148, 6, 6);
+  margin-top: 0.5rem;
+}
+
+.biography img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+.biography h2 {
+  margin-top: 2rem;
+  color: rgb(148, 6, 6);
+}
+
+.biography p {
+  padding: 2%;
+}
