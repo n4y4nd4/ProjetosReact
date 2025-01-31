@@ -1,0 +1,26 @@
+.comment-card {
+  background-color: #4d4d4d;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button {
+  background-color: #4d4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 100%;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #202020;
+}
