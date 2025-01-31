@@ -1,0 +1,24 @@
+.post-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #4d4d4d;
+  transition: transform 0.2s;
+}
+
+.post-card:hover {
+  transform: scale(1.02);
+}
+
+.post-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.1em;
+  color: #d3d1d1;
+}
+
+.post-card p {
+  color: #ceccccf0;
+  font-size: 0.95em;
+}
